@@ -17,3 +17,7 @@ echo -e "\n"
 #y este procesa esto como si fuese el contenido de un fichero, mostrando las lineas o palabras que cumplen el
 #patrón.
 ls * | grep ^c
+echo -e "\n"
+
+#Case insensitive (no sensible a mayúsculas).
+grep -i ^c *
