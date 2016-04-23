@@ -12,7 +12,7 @@ else
     rm -R pequenos medianos grandes
     mkdir pequenos medianos grandes
   else
-    echo "Creando las carpetas pequeños, medianos y grande..."
+    echo "Creando las carpetas pequenos, medianos y grande..."
     echo "Copiando los archivos..."
     mkdir pequenos medianos grandes
   fi

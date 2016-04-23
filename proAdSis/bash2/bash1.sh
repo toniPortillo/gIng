@@ -2,7 +2,7 @@
 
 if [ $# -le "0" ] || [ $# -gt "2" ]
 then
-  echo "El número de parametros tiene que estar entre 1 y 2"
+  echo "El numero de parametros tiene que estar entre 1 y 2"
 else
   if [ $# -eq "1" ]
   then
@@ -11,7 +11,7 @@ else
     tam=$[$2-1]
   fi
 
-  echo "Carpeta;Nombre;Tamaño;ReferenciasInodo;Permisos;Ejecutable"
+  echo "Carpeta;Nombre;Tamanio;ReferenciasInodo;Permisos;Ejecutable"
 
   find $1 -size +$[$tam]c | while read f
   do
