@@ -2,7 +2,8 @@
 
 if [ $# -le "0" ] || [ $# -gt "2" ]
 then
-  echo "El numero de parametros tiene que estar entre 1 y 2"
+  echo "El numero de parametros tiene que ser de 1 a 2"
+  echo "Formato ./ejercicio1.sh directorio(argumento obligatorio) nºbytes(argumento opcional)"
 else
   if [ $# -eq "1" ]
   then

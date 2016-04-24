@@ -2,7 +2,8 @@
 
 if [ $# -le "0" ] || [ $# -gt "3" ]
 then
-  echo "El número de parametros tiene que estar entre 1 y 3"
+  echo "El numero de parametros tiene que ser de 1 a 3"
+  echo "Formato ./ejercicio2.sh directorio(argumento obligatorio) umbral1 umbral2(opcionales)"
 else
 
   if [ -d "pequenos" ] && [ -d "medianos" ] && [ -d "grandes" ]
