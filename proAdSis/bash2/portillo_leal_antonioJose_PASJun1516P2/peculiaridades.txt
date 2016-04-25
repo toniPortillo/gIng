@@ -1,7 +1,0 @@
-la contraseña que genera el siguiente resumen
-(obtenida a partir del script desarrollado):
-d3902e622ed64cea963844de17fceb3926e132ce
-
-es:./bash5.sh d3902e622ed64cea963844de17fceb3926e132ce 3
-Buscando contraseña de 3 caracteres...
-Encontrada la clave: pas
