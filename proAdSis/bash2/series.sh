@@ -3,7 +3,7 @@
 if [ $# -le "0" ] || [ $# -gt "1" ]
 then
   echo "El número de parámetros tiene que ser 1"
-  echo "Formato ./ejercicio1.sh ficheroParaTareas"
+  echo "Formato ./ejercicio1.sh ficheroDeSeries"
 else
   echo "*****************************"
   echo "1) Títulos de las series"
